@@ -22,7 +22,7 @@ export function TechOrbit() {
     <div className="relative flex items-center justify-center w-72 h-72 lg:w-96 lg:h-96 mx-auto">
       {/* Central Core Sphere */}
       <motion.div
-        className="absolute w-20 h-20 lg:w-28 lg:h-28 rounded-full bg-gradient-to-tr from-brand-cyan to-brand-purple flex items-center justify-center text-white font-bold text-lg lg:text-xl shadow-lg shadow-brand-cyan/20 z-10"
+        className="absolute w-20 h-20 lg:w-28 lg:h-28 rounded-full overflow-hidden border border-border bg-gradient-to-tr from-brand-cyan/20 to-brand-purple/20 flex items-center justify-center shadow-lg shadow-brand-cyan/20 z-10"
         animate={{
           scale: [1, 1.05, 1],
           boxShadow: [
@@ -37,7 +37,11 @@ export function TechOrbit() {
           ease: "easeInOut",
         }}
       >
-        <span>SS</span>
+        <img 
+          src="/profile.jpg" 
+          alt="Sagar Swami" 
+          className="w-full h-full object-cover"
+        />
       </motion.div>
 
       {/* Orbit Rings */}
