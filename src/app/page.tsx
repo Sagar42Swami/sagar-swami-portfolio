@@ -235,6 +235,19 @@ export default function Home() {
       liveLink: "https://crypto-tracker-swami.netlify.app", // Clean fallback netlify structure
       githubLink: "https://github.com/Sagar42Swami/Cryptocurrency-Price-Tracker",
     },
+    {
+      title: "BrewPredict",
+      type: "Tea Management & ML Prediction API",
+      description: "A high-performance, fully documented FastAPI REST API for managing tea products (CRUD operations) and serving machine learning predictions using a trained Scikit-Learn model.",
+      categories: ["ai", "fullstack"],
+      tags: ["Python", "FastAPI", "Scikit-learn", "Pydantic", "Joblib", "Render"],
+      bullets: [
+        "Implemented tea product management endpoints with Pydantic validation filters.",
+        "Connected an ML model loaded with Joblib to serve prediction endpoints."
+      ],
+      liveLink: "https://brewpredict.onrender.com/",
+      githubLink: "https://github.com/Sagar42Swami/BrewPredict",
+    },
   ]
 
   const filteredProjects = projectsData.filter(project => 
