@@ -199,16 +199,17 @@ export default function Home() {
       githubLink: "https://github.com/Sagar42Swami/CareerForge-AI---Career-Build-Platform",
     },
     {
-      title: "E-Commerce Order Management",
-      type: "Enterprise Order System",
-      description: "Responsive catalog, cart, order tracking, JWT authentication, role-based access, Spring Boot APIs, and MySQL persistence.",
-      categories: ["fullstack", "frontend"],
-      tags: ["Java", "Spring Boot", "React.js", "MySQL", "Postman"],
+      title: "Mind Metric",
+      type: "Cognitive Telemetry HUD",
+      description: "A real-time, interactive browser dashboard that visualizes cognitive telemetry (focus, stress, brainwave coherence) without a backend, featuring dynamic dials, streaming area charts, and neon HUD aesthetics.",
+      categories: ["frontend"],
+      tags: ["React.js", "Tailwind CSS", "Recharts", "Lucide React", "Telemetry"],
       bullets: [
-        "Validated catalog, cart, and order APIs with systematic test cases.",
-        "Centralized order data to simplify status tracking and reporting."
+        "Built a responsive Recharts dial gauge reading real-time cognitive state (flow, fatigue, active).",
+        "Created rolling area charts with gradient fills, neon grid meshes, and a manual anomaly injector to simulate stress spikes."
       ],
-      githubLink: "https://github.com/Sagar42Swami/E-Commerce-Order-Management-System",
+      liveLink: "https://metric-mind-neon.vercel.app/",
+      githubLink: "https://github.com/Sagar42Swami/metric-mind-neon",
     },
     {
       title: "AI-Based Interview Platform",
