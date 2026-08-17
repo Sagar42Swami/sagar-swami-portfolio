@@ -216,12 +216,12 @@ export default function Home() {
       type: "Market Data Analytics",
       description: "Tracks real-time price, market cap, and volume through CoinGecko APIs with search, filters, and responsive data views.",
       categories: ["frontend"],
-      tags: ["React.js", "Node.js", "Express.js", "CoinGecko API", "Netlify"],
+      tags: ["React.js", "Node.js", "Express.js", "CoinGecko API", "Vercel"],
       bullets: [
         "Handled asynchronous state updates for accurate market information.",
         "Created interactive visualizations for fast market scanning."
       ],
-      liveLink: "https://crypto-tracker-swami.netlify.app", // Clean fallback netlify structure
+      liveLink: "https://cryptocurrency-price-tracker-seven.vercel.app/",
       githubLink: "https://github.com/Sagar42Swami/Cryptocurrency-Price-Tracker",
     },
     {
