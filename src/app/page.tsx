@@ -249,6 +249,19 @@ export default function Home() {
       liveLink: "https://brewpredict.onrender.com/",
       githubLink: "https://github.com/Sagar42Swami/BrewPredict",
     },
+    {
+      title: "Film Galaxy",
+      type: "Cinematic Exploration Portal",
+      description: "A premium movie search and exploration portal built with React 18, TypeScript, Tailwind CSS, and Framer Motion, featuring responsive glassmorphic UI and cinematic animations.",
+      categories: ["frontend"],
+      tags: ["React 18", "TypeScript", "Tailwind CSS", "Framer Motion", "TMDB API"],
+      bullets: [
+        "Built responsive glassmorphic interfaces with smooth Framer Motion layout transitions.",
+        "Integrated real-time movie search, interactive filtering, and dynamic detail exploration views."
+      ],
+      liveLink: "https://film-galaxy-two.vercel.app/",
+      githubLink: "https://github.com/Sagar42Swami/film-galaxy",
+    },
   ]
 
   const filteredProjects = projectsData.filter(project => 
