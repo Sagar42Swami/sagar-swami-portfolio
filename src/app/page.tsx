@@ -212,18 +212,6 @@ export default function Home() {
       githubLink: "https://github.com/Sagar42Swami/metric-mind-neon",
     },
     {
-      title: "AI-Based Interview Platform",
-      type: "Interview Intelligence Engine",
-      description: "Flask backend with OpenAI API integration for question generation, answer feedback, session tracking, and structured reporting.",
-      categories: ["ai", "fullstack"],
-      tags: ["Python", "Flask", "OpenAI API", "MySQL", "React.js"],
-      bullets: [
-        "Tested question-generation and evaluation logic across input scenarios.",
-        "Protected data quality through session and response integrity checks."
-      ],
-      githubLink: "https://github.com/Sagar42Swami/AI-Based-Interview-Platform",
-    },
-    {
       title: "Cryptocurrency Price Tracker",
       type: "Market Data Analytics",
       description: "Tracks real-time price, market cap, and volume through CoinGecko APIs with search, filters, and responsive data views.",
